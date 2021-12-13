@@ -131,7 +131,6 @@ main {
   width: 280px;
   height: 250px;
   object-fit: cover;
-  box-shadow: 0px 0px 30px 0px #add8e6;
   transition: 0.5s all;
 }
 .img-itens:hover {
@@ -458,6 +457,11 @@ main {
   .img-itens {
     width: 288px;
     height: 387px;
+    box-shadow: none;
+  }
+
+  .img-itens:hover {
+    border: none;
   }
 
   .text-footer p {
